@@ -1,0 +1,101 @@
+/**
+ * Custom Tailwind CSS integration for Docusaurus
+ */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/**
+ * Custom styles to enhance Docusaurus with Tailwind
+ */
+:root {
+  --ifm-color-primary: #3b82f6;
+  --ifm-color-primary-dark: #2563eb;
+  --ifm-color-primary-darker: #1d4ed8;
+  --ifm-color-primary-darkest: #1e40af;
+  --ifm-color-primary-light: #60a5fa;
+  --ifm-color-primary-lighter: #93c5fd;
+  --ifm-color-primary-lightest: #dbeafe;
+  --ifm-code-font-size: 95%;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+  --ifm-font-family-base: 'Inter', system-ui, -apple-system, sans-serif;
+  --ifm-font-family-monospace: 'Fira Code', 'Consolas', 'Monaco', monospace;
+}
+
+/* For readability concerns, you should choose a lighter palette in dark mode. */
+[data-theme='dark'] {
+  --ifm-color-primary: #60a5fa;
+  --ifm-color-primary-dark: #3b82f6;
+  --ifm-color-primary-darker: #2563eb;
+  --ifm-color-primary-darkest: #1d4ed8;
+  --ifm-color-primary-light: #93c5fd;
+  --ifm-color-primary-lighter: #bfdbfe;
+  --ifm-color-primary-lightest: #dbeafe;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+}
+
+/* Custom typography */
+.markdown h1 {
+  @apply text-4xl font-bold mb-6 mt-8;
+}
+
+.markdown h2 {
+  @apply text-3xl font-bold mb-4 mt-6;
+}
+
+.markdown h3 {
+  @apply text-2xl font-semibold mb-3 mt-5;
+}
+
+.markdown p {
+  @apply text-base leading-relaxed mb-4;
+}
+
+.markdown ul, .markdown ol {
+  @apply ml-6 mb-4;
+}
+
+.markdown code {
+  @apply bg-gray-100 dark:bg-gray-800 px-1.5 py-0.5 rounded text-sm font-mono;
+}
+
+/* Custom component styles */
+.chapter-card {
+  @apply bg-white dark:bg-gray-800 rounded-lg shadow-lg p-6 hover:shadow-xl transition-shadow duration-300;
+}
+
+.lesson-header {
+  @apply border-b-2 border-primary-500 pb-4 mb-6;
+}
+
+.quiz-question {
+  @apply bg-blue-50 dark:bg-blue-900 dark:bg-opacity-20 p-4 rounded-lg mb-4;
+}
+
+.exercise-section {
+  @apply bg-green-50 dark:bg-green-900 dark:bg-opacity-20 p-4 rounded-lg mb-4;
+}
+
+.glossary-term {
+  @apply font-semibold text-primary-600 dark:text-primary-400 cursor-help;
+}
+
+/* Code block enhancements */
+pre[class*="language-"] {
+  @apply rounded-lg shadow-md;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .markdown h1 {
+    @apply text-3xl;
+  }
+
+  .markdown h2 {
+    @apply text-2xl;
+  }
+
+  .markdown h3 {
+    @apply text-xl;
+  }
+}
