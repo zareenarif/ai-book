@@ -5,7 +5,7 @@ sidebar_label: ' Conversational AI'
 ---
 
 
-# 🗣️ Conversational AI
+# Conversational AI
 
 Conversational AI enables robots and systems to **understand, process, and respond to natural language**. By combining **speech recognition, natural language understanding, and dialogue management**, robots can interact with humans **intelligently and naturally**.
 
@@ -13,21 +13,33 @@ This lesson introduces **the fundamentals, architecture, and ROS 2 integration**
 
 ---
 
-## 🎯 Learning Objectives
+## Learning Objectives
 
 By the end of this lesson, students will be able to:
 
-- ✅ Understand what **Conversational AI** is  
-- ✅ Explain **speech-to-text and text-to-speech systems**  
-- ✅ Understand **Natural Language Understanding (NLU) and Dialogue Management**  
-- ✅ Integrate Conversational AI with **ROS 2 Humble**  
-- ✅ Enable humanoid robots to **receive and respond to verbal instructions**  
-- ✅ Implement simple voice-controlled tasks in **simulation or real robots**  
-- ✅ Understand the use of **AI and ML models** for human–robot interaction  
+- Understand what **Conversational AI** is  
+- Explain **speech-to-text and text-to-speech systems**  
+- Understand **Natural Language Understanding (NLU) and Dialogue Management**  
+- Integrate Conversational AI with **ROS 2 Humble**  
+- Enable humanoid robots to **receive and respond to verbal instructions**  
+- Implement simple voice-controlled tasks in **simulation or real robots**  
+- Understand the use of **AI and ML models** for human–robot interaction  
 
 ---
 
-## 🧠 1. What is Conversational AI?
+## Prerequisites
+
+- Completed Week 1-8: ROS 2, simulation, and sensor fundamentals
+- Completed Week 9: Vision-Language-Action Models
+- Python 3.8+ with speech recognition libraries
+- Basic understanding of Natural Language Processing (NLP)
+- Familiarity with audio processing and speech APIs
+- ROS 2 Humble workspace configured
+- Microphone and audio output device for testing
+
+---
+
+## 1. What is Conversational AI?
 
 Conversational AI is a technology that allows robots to:
 
@@ -42,7 +54,7 @@ Conversational AI is a technology that allows robots to:
 
 ---
 
-## 🌐 2. Importance of Conversational AI in Robotics
+## 2. Importance of Conversational AI in Robotics
 
 Conversational AI enables:
 
@@ -56,21 +68,21 @@ Conversational AI enables:
 
 ---
 
-## 🏗️ 3. Architecture of Conversational AI
+## 3. Architecture of Conversational AI
 
-### 🔹 1. Speech Recognition
+### 1. Speech Recognition
 - Converts spoken language into text  
 - Examples: Google Speech-to-Text, Whisper  
 
-### 🔹 2. Natural Language Understanding (NLU)
+### 2. Natural Language Understanding (NLU)
 - Parses text into structured data  
 - Identifies **intents** and **entities**  
 
-### 🔹 3. Dialogue Management
+### 3. Dialogue Management
 - Determines **appropriate responses or actions**  
 - Can be rule-based or AI-based  
 
-### 🔹 4. Text-to-Speech (TTS)
+### 4. Text-to-Speech (TTS)
 - Converts robot response text into speech  
 - Examples: Google TTS, Amazon Polly  
 
@@ -79,7 +91,7 @@ Conversational AI enables:
 
 ---
 
-## 🔗 4. ROS 2 Integration
+## 4. ROS 2 Integration
 
 Conversational AI can be integrated with ROS 2 using:
 
@@ -97,7 +109,7 @@ Conversational AI can be integrated with ROS 2 using:
 
 ---
 
-## 🤖 5. Practical Examples
+## 5. Practical Examples
 
 ### Example 1: Voice-Controlled Robot
 - Human: “Move forward 1 meter”
@@ -117,7 +129,7 @@ Conversational AI can be integrated with ROS 2 using:
 
 ---
 
-## 🛠️ 6. Tools & Technologies Used
+## 6. Tools & Technologies Used
 
 - ROS 2 Humble  
 - Python / C++  
@@ -140,7 +152,7 @@ Conversational AI can be integrated with ROS 2 using:
 
 ---
 
-## 📝 8. Knowledge Check Quiz (Coming Soon)
+## 8. Knowledge Check Quiz (Coming Soon)
 
 - What is Conversational AI?  
 - Difference between ASR and TTS?  
@@ -149,7 +161,7 @@ Conversational AI can be integrated with ROS 2 using:
 
 ---
 
-## 📚 9. Glossary
+## 9. Glossary
 
 - **ASR:** Automatic Speech Recognition  
 - **NLU:** Natural Language Understanding  
@@ -160,7 +172,7 @@ Conversational AI can be integrated with ROS 2 using:
 
 ---
 
-## 📖 10. Further Reading (Coming Soon)
+## 10. Further Reading (Coming Soon)
 
 - ROS 2 Speech Recognition Tutorials  
 - Conversational AI with Python & NLP  
@@ -170,7 +182,7 @@ Conversational AI can be integrated with ROS 2 using:
 
 ---
 
-## ✅ Lesson Summary
+## Lesson Summary
 
 This lesson introduced **Conversational AI** and its integration with ROS 2 Humble. Students learned how **speech recognition, natural language understanding, and dialogue management** enable humanoid and autonomous robots to interact intelligently with humans. Practical applications include **voice-controlled movement, query-based assistance, and multi-turn conversations**.
 

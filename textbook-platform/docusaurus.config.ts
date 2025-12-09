@@ -15,15 +15,15 @@ const config: Config = {
   },
 
   // Set the production url of your site here
-  url: 'https://YOUR-USERNAME.github.io',
+  url: 'https://zareenarif.github.io',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/',
+  baseUrl: '/ai-book/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'YOUR-USERNAME', // Usually your GitHub org/user name.
-  projectName: 'textbook-platform', // Usually your repo name.
+  organizationName: 'zareenarif', // Usually your GitHub org/user name.
+  projectName: 'ai-book', // Usually your repo name.
 
   onBrokenLinks: 'throw',
 
@@ -72,7 +72,7 @@ const config: Config = {
           label: 'Textbook',
         },
         {
-          href: 'https://github.com/YOUR-USERNAME/textbook-platform',
+          href: 'https://github.com/zareenarif/ai-book',
           label: 'GitHub',
           position: 'right',
         },
@@ -124,7 +124,7 @@ const config: Config = {
           items: [
             {
               label: 'GitHub',
-              href: 'https://github.com/YOUR-USERNAME/textbook-platform',
+              href: 'https://github.com/zareenarif/ai-book',
             },
           ],
         },

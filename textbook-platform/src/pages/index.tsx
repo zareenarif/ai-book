@@ -27,7 +27,7 @@ export default function Home(): JSX.Element {
             </Link>
             <Link
               className="border-2 border-white text-white px-6 py-3 rounded-lg font-semibold hover:bg-white hover:text-primary-600 transition-colors no-underline"
-              to="https://github.com/YOUR-USERNAME/textbook-platform">
+              to="https://github.com/zareenarif/ai-book">
               View on GitHub
             </Link>
           </div>

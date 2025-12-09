@@ -4,7 +4,7 @@ title: ' Humanoid Locomotion'
 sidebar_label: ' Humanoid Locomotion'
 ---
 
-# 🤖 Humanoid Locomotion
+# Humanoid Locomotion
 
 Humanoid Locomotion is the study and implementation of **walking, running, and balance control** in humanoid robots. It combines **kinematics, dynamics, sensor feedback, and control algorithms** to enable robots to move safely and efficiently in complex environments.
 
@@ -12,21 +12,33 @@ This lesson introduces the **fundamentals, control strategies, and ROS 2 integra
 
 ---
 
-## 🎯 Learning Objectives
+## Learning Objectives
 
 By the end of this lesson, students will be able to:
 
-- ✅ Understand the **mechanics of humanoid locomotion**  
-- ✅ Describe **bipedal walking patterns and gait cycles**  
-- ✅ Apply **inverse kinematics and dynamics** for humanoid movement  
-- ✅ Use sensors for **balance and stability**  
-- ✅ Implement locomotion control using **ROS 2 Humble**  
-- ✅ Simulate humanoid walking in **Gazebo, Unity, or Isaac Sim**  
-- ✅ Analyze trade-offs in humanoid locomotion design  
+- Understand the **mechanics of humanoid locomotion**  
+- Describe **bipedal walking patterns and gait cycles**  
+- Apply **inverse kinematics and dynamics** for humanoid movement  
+- Use sensors for **balance and stability**  
+- Implement locomotion control using **ROS 2 Humble**  
+- Simulate humanoid walking in **Gazebo, Unity, or Isaac Sim**  
+- Analyze trade-offs in humanoid locomotion design  
 
 ---
 
-## 🧠 1. Introduction to Humanoid Locomotion
+## Prerequisites
+
+- Completed Week 1-8: ROS 2, simulation, and sensor integration
+- Completed Week 2: Humanoid Fundamentals (DOF, actuators)
+- Understanding of kinematics and dynamics principles
+- Familiarity with control theory and feedback systems
+- ROS 2 Humble with MoveIt or similar motion planning library
+- Access to simulation platform (Gazebo, Unity, or Isaac Sim)
+- Python 3.8+ and NumPy for kinematic calculations
+
+---
+
+## 1. Introduction to Humanoid Locomotion
 
 Humanoid locomotion involves:
 
@@ -39,7 +51,7 @@ Humanoid locomotion involves:
 
 ---
 
-## 🏗️ 2. Gait Cycle
+## 2. Gait Cycle
 
 A gait cycle is the **sequence of movements during walking**:
 
@@ -83,26 +95,26 @@ A gait cycle is the **sequence of movements during walking**:
 
 ---
 
-## 🔗 5. Humanoid Locomotion Control Strategies
+## 5. Humanoid Locomotion Control Strategies
 
-### 🔹 1. Open-Loop Control
+### 1. Open-Loop Control
 - Predefined joint trajectories  
 - No feedback from sensors  
 - Simple but less robust  
 
-### 🔹 2. Closed-Loop Control
+### 2. Closed-Loop Control
 - Uses sensor feedback (IMU, force sensors)  
 - Adjusts motion in real-time  
 - More stable and adaptable  
 
-### 🔹 3. Model Predictive Control (MPC)
+### 3. Model Predictive Control (MPC)
 - Predicts future states using **robot model**  
 - Optimizes stability and energy  
 - Common in advanced humanoid robots  
 
 ---
 
-## 🛠️ 6. ROS 2 Integration
+## 6. ROS 2 Integration
 
 Humanoid locomotion can be implemented in ROS 2 using:
 
@@ -115,7 +127,7 @@ Humanoid locomotion can be implemented in ROS 2 using:
 
 ---
 
-## 🤖 7. Practical Examples
+## 7. Practical Examples
 
 ### Example 1: Forward Walking
 - Publish joint angles via ROS 2  
@@ -134,7 +146,7 @@ Humanoid locomotion can be implemented in ROS 2 using:
 
 ---
 
-## 🦿 8. Humanoid Locomotion in AI & Robotics
+## 8. Humanoid Locomotion in AI & Robotics
 
 - Integration with **AI planners** for dynamic environments  
 - Training **reinforcement learning agents** for walking  
@@ -154,7 +166,7 @@ Humanoid locomotion can be implemented in ROS 2 using:
 
 ---
 
-## 📝 10. Knowledge Check Quiz (Coming Soon)
+## 10. Knowledge Check Quiz (Coming Soon)
 
 - What is a gait cycle?  
 - Difference between open-loop and closed-loop control?  
@@ -163,7 +175,7 @@ Humanoid locomotion can be implemented in ROS 2 using:
 
 ---
 
-## 📚 11. Glossary
+## 11. Glossary
 
 - **Gait Cycle:** Sequence of movements during walking  
 - **CoM:** Center of Mass  
@@ -174,7 +186,7 @@ Humanoid locomotion can be implemented in ROS 2 using:
 
 ---
 
-## 📖 12. Further Reading (Coming Soon)
+## 12. Further Reading (Coming Soon)
 
 - Humanoid locomotion research papers  
 - ROS 2 locomotion tutorials  
@@ -184,7 +196,7 @@ Humanoid locomotion can be implemented in ROS 2 using:
 
 ---
 
-## ✅ Lesson Summary
+## Lesson Summary
 
 This lesson introduced **humanoid locomotion**, including gait cycles, kinematics & dynamics, balance control, and ROS 2-based locomotion strategies. Students learned how **sensors, control algorithms, and simulations** enable humanoid robots to walk, turn, and maintain stability safely.
 

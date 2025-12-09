@@ -4,7 +4,7 @@ title: ' NVIDIA Isaac Sim'
 sidebar_label: ' NVIDIA Isaac Sim'
 ---
 
-# 🤖 NVIDIA Isaac Sim
+# NVIDIA Isaac Sim
 
 NVIDIA Isaac Sim is a **highly advanced robotics simulation platform** built on **NVIDIA Omniverse** for realistic robot simulation, AI training, and synthetic data generation. It is widely used for **humanoid robotics, autonomous navigation, manipulation, reinforcement learning, and computer vision training**.
 
@@ -12,21 +12,34 @@ This lesson introduces the **core concepts of Isaac Sim**, its integration with 
 
 ---
 
-## 🎯 Learning Objectives
+## Learning Objectives
 
 By the end of this lesson, students will be able to:
 
-- ✅ Understand what **NVIDIA Isaac Sim** is  
-- ✅ Explain the role of **Omniverse in robotics simulation**  
-- ✅ Understand **physics-based simulation & photorealistic rendering**  
-- ✅ Integrate **ROS 2 Humble with Isaac Sim**  
-- ✅ Control robots inside Isaac Sim using ROS 2  
-- ✅ Understand the concept of **Synthetic Data Generation**  
-- ✅ Apply Isaac Sim in **humanoid robotics & AI training**
+- Understand what **NVIDIA Isaac Sim** is  
+- Explain the role of **Omniverse in robotics simulation**  
+- Understand **physics-based simulation & photorealistic rendering**  
+- Integrate **ROS 2 Humble with Isaac Sim**  
+- Control robots inside Isaac Sim using ROS 2  
+- Understand the concept of **Synthetic Data Generation**  
+- Apply Isaac Sim in **humanoid robotics & AI training**
 
 ---
 
-## 🧠 1. What is NVIDIA Isaac Sim?
+## Prerequisites
+
+- Completed Week 1-4: ROS 2 fundamentals
+- Completed Week 5: Gazebo Basics
+- Completed Week 6: Unity Robotics (understanding simulation platforms)
+- NVIDIA GPU (RTX 2000 series or newer recommended)
+- Ubuntu 20.04/22.04 or Windows 10/11
+- NVIDIA Omniverse Launcher installed
+- ROS 2 Humble workspace configured
+- Python 3.8+ and familiarity with AI/ML concepts
+
+---
+
+## 1. What is NVIDIA Isaac Sim?
 
 NVIDIA Isaac Sim is a **robotics simulation application** powered by:
 
@@ -36,17 +49,17 @@ NVIDIA Isaac Sim is a **robotics simulation application** powered by:
 - AI acceleration using GPUs
 
 It is used for:
-- ✅ Robot simulation  
-- ✅ AI training & reinforcement learning  
-- ✅ Computer vision training  
-- ✅ Digital twin development  
-- ✅ Humanoid robot testing  
+- Robot simulation  
+- AI training & reinforcement learning  
+- Computer vision training  
+- Digital twin development  
+- Humanoid robot testing  
 
 ✅ It allows you to train robots in **realistic virtual environments** before deploying them in the real world.
 
 ---
 
-## 🌐 2. What is NVIDIA Omniverse?
+## 2. What is NVIDIA Omniverse?
 
 Omniverse is a **real-time 3D collaboration platform** by NVIDIA.
 
@@ -64,24 +77,24 @@ Isaac Sim runs on top of:
 
 ---
 
-## ❗ 3. Why Use Isaac Sim in Robotics?
+## 3. Why Use Isaac Sim in Robotics?
 
 Isaac Sim is used because it provides:
 
-- ✅ Photorealistic environments  
-- ✅ GPU-accelerated physics  
-- ✅ Massive-scale simulation  
-- ✅ Real-time sensor simulation  
-- ✅ AI model training at scale  
-- ✅ Safe humanoid & autonomous robot testing  
+- Photorealistic environments  
+- GPU-accelerated physics  
+- Massive-scale simulation  
+- Real-time sensor simulation  
+- AI model training at scale  
+- Safe humanoid & autonomous robot testing  
 
 ✅ It is far more **realistic than Gazebo and Unity** for advanced AI robotics.
 
 ---
 
-## 🏗️ 4. Core Components of Isaac Sim
+## 4. Core Components of Isaac Sim
 
-### 🔹 1. Physics Engine (PhysX)
+### 1. Physics Engine (PhysX)
 Handles:
 - Gravity
 - Collisions
@@ -91,7 +104,7 @@ Handles:
 
 ---
 
-### 🔹 2. Rendering Engine (RTX)
+### 2. Rendering Engine (RTX)
 Provides:
 - Photorealistic lighting  
 - Real-time ray tracing  
@@ -104,7 +117,7 @@ Used for:
 
 ---
 
-### 🔹 3. Robot Models
+### 3. Robot Models
 Supports robots described in:
 - URDF
 - USD
@@ -117,14 +130,14 @@ Includes:
 
 ---
 
-### 🔹 4. Sensors in Isaac Sim
+### 4. Sensors in Isaac Sim
 
 Isaac Sim can simulate:
 
-- 📷 RGB & Depth Cameras  
-- 🌊 LiDAR  
-- 🧭 IMU  
-- 👣 Contact & force sensors  
+- RGB & Depth Cameras  
+- LiDAR  
+- IMU  
+- Contact & force sensors  
 - 🔊 Audio sensors  
 
 These publish real-time data for:
@@ -134,7 +147,7 @@ These publish real-time data for:
 
 ---
 
-## 🔗 5. Isaac Sim + ROS 2 Humble Integration
+## 5. Isaac Sim + ROS 2 Humble Integration
 
 Isaac Sim works with ROS 2 using:
 
@@ -144,15 +157,15 @@ Isaac Sim works with ROS 2 using:
 
 This enables:
 
-- ✅ ROS 2 → Control simulated robot  
-- ✅ Isaac → Send sensor data to ROS 2  
-- ✅ Same ROS 2 code → Works on real robot  
+- ROS 2 → Control simulated robot  
+- Isaac → Send sensor data to ROS 2  
+- Same ROS 2 code → Works on real robot  
 
 ✅ Supports full **ROS 2 Humble ecosystem**.
 
 ---
 
-## 🎮 6. Controlling Robots in Isaac Sim Using ROS 2
+## 6. Controlling Robots in Isaac Sim Using ROS 2
 
 Example workflow:
 
@@ -166,22 +179,22 @@ Example workflow:
 
 ---
 
-## 🦿 7. NVIDIA Isaac Sim in Humanoid Robotics
+## 7. NVIDIA Isaac Sim in Humanoid Robotics
 
 Isaac Sim is widely used for:
 
-- ✅ Walking & gait learning  
-- ✅ Balance & fall recovery  
-- ✅ Arm & hand manipulation  
-- ✅ Whole-body motion planning  
-- ✅ Human–robot interaction  
-- ✅ Vision-based perception  
+- Walking & gait learning  
+- Balance & fall recovery  
+- Arm & hand manipulation  
+- Whole-body motion planning  
+- Human–robot interaction  
+- Vision-based perception  
 
 ✅ Humanoid behaviors are learned using **AI & reinforcement learning**.
 
 ---
 
-## 🧠 8. Isaac Sim for AI & Reinforcement Learning
+## 8. Isaac Sim for AI & Reinforcement Learning
 
 Isaac Sim provides:
 
@@ -220,7 +233,7 @@ Used for:
 
 ---
 
-## 🛠️ 10. Tools & Technologies Used with Isaac Sim
+## 10. Tools & Technologies Used with Isaac Sim
 
 - NVIDIA Omniverse
 - ROS 2 Humble
@@ -246,7 +259,7 @@ Used for:
 
 ---
 
-## 📝 12. Knowledge Check Quiz (Coming Soon)
+## 12. Knowledge Check Quiz (Coming Soon)
 
 - What is Isaac Sim used for?  
 - Difference between Gazebo, Unity & Isaac Sim  
@@ -256,7 +269,7 @@ Used for:
 
 ---
 
-## 📚 13. Glossary
+## 13. Glossary
 
 - **Isaac Sim:** NVIDIA robotics simulator  
 - **Omniverse:** NVIDIA 3D simulation platform  
@@ -268,7 +281,7 @@ Used for:
 
 ---
 
-## 📖 14. Further Reading (Coming Soon)
+## 14. Further Reading (Coming Soon)
 
 - NVIDIA Isaac Sim Official Documentation  
 - Omniverse Robotics Guides  
@@ -278,7 +291,7 @@ Used for:
 
 ---
 
-## ✅ Lesson Summary
+## Lesson Summary
 
 This lesson introduced the **advanced capabilities of NVIDIA Isaac Sim**, including GPU-accelerated physics, photorealistic rendering, ROS 2 Humble integration, AI reinforcement learning, humanoid simulation, and synthetic data generation. Students learned how Isaac Sim is used in **cutting-edge AI robotics research and real-world autonomous robot deployment**.
 

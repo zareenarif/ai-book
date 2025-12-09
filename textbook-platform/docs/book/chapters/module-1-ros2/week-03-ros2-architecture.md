@@ -4,7 +4,7 @@ title: ' ROS 2 Architecture'
 sidebar_label: ' ROS 2 Architecture'
 ---
 
-# 🤖 ROS 2 Architecture
+# ROS 2 Architecture
 
 ROS 2 (Robot Operating System 2) is a modern, flexible, and high-performance framework used for building robotic systems. This lesson explains the **core architecture of ROS 2**, how different components communicate, and how real-world robotic applications are structured using ROS 2.
 
@@ -12,27 +12,38 @@ This module is essential for understanding **how humanoid robots, autonomous veh
 
 ---
 
-## 🎯 Learning Objectives
+## Learning Objectives
 
 By the end of this lesson, students will be able to:
 
-- ✅ Understand what **ROS 2 is** and why it is used  
-- ✅ Explain the **core components of ROS 2 architecture**  
-- ✅ Understand **nodes, topics, services, and actions**  
-- ✅ Describe the role of **DDS (Data Distribution Service)**  
-- ✅ Understand the **ROS 2 communication model**  
-- ✅ Differentiate between **ROS 1 and ROS 2**  
-- ✅ Understand how ROS 2 is used in **real humanoid robotics systems**  
+- Understand what **ROS 2 is** and why it is used  
+- Explain the **core components of ROS 2 architecture**  
+- Understand **nodes, topics, services, and actions**  
+- Describe the role of **DDS (Data Distribution Service)**  
+- Understand the **ROS 2 communication model**  
+- Differentiate between **ROS 1 and ROS 2**  
+- Understand how ROS 2 is used in **real humanoid robotics systems**  
 
 ---
 
-## 🧠 1. What is ROS 2?
+## Prerequisites
+
+- Completed Week 1: Introduction to Physical AI
+- Completed Week 2: Fundamentals of Humanoid Robotics
+- Basic understanding of software architecture and communication patterns
+- Familiarity with robotics terminology (sensors, actuators, nodes)
+- Python 3.8+ or C++ knowledge (optional but helpful)
+- Linux or Windows development environment
+
+---
+
+## 1. What is ROS 2?
 
 ROS 2 is an **open-source robotic middleware framework** that helps developers build, control, and simulate robots easily.
 
 It acts as a **bridge between hardware and software**, allowing different robot components to communicate efficiently.
 
-### ✅ Key Uses of ROS 2:
+### Key Uses of ROS 2:
 - Robot control
 - Sensor data processing
 - Autonomous navigation
@@ -42,7 +53,7 @@ It acts as a **bridge between hardware and software**, allowing different robot 
 
 ---
 
-## 🏗️ 2. Core ROS 2 Architecture Overview
+## 2. Core ROS 2 Architecture Overview
 
 ROS 2 follows a **distributed architecture**, meaning:
 
@@ -61,7 +72,7 @@ ROS 2 follows a **distributed architecture**, meaning:
 
 ---
 
-## 🧩 3. Nodes in ROS 2
+## 3. Nodes in ROS 2
 
 A **node** is a **small independent program** that performs one specific task.
 
@@ -75,7 +86,7 @@ A **node** is a **small independent program** that performs one specific task.
 
 ---
 
-## 💬 4. Topics (Publish–Subscribe Model)
+## 4. Topics (Publish–Subscribe Model)
 
 Topics allow **asynchronous communication** between nodes.
 
@@ -120,13 +131,13 @@ Actions are used for **long-running tasks with continuous feedback**.
 - Walk to a target
 
 Actions provide:
-- ✅ Feedback
-- ✅ Result
-- ✅ Cancel option
+- Feedback
+- Result
+- Cancel option
 
 ---
 
-## 🌐 7. DDS (Data Distribution Service)
+## 7. DDS (Data Distribution Service)
 
 ROS 2 uses **DDS as its communication backbone**.
 
@@ -147,7 +158,7 @@ ROS 2 includes built-in **security features**, which were missing in ROS 1:
 
 - 🔐 Encrypted communication
 - 👤 Node authentication
-- ✅ Permission-based access control
+- Permission-based access control
 
 This makes ROS 2 suitable for:
 - Military robots  
@@ -157,7 +168,7 @@ This makes ROS 2 suitable for:
 
 ---
 
-## 🔄 9. ROS 1 vs ROS 2 (Quick Comparison)
+## 9. ROS 1 vs ROS 2 (Quick Comparison)
 
 | Feature | ROS 1 | ROS 2 |
 |--------|--------|--------|
@@ -170,7 +181,7 @@ This makes ROS 2 suitable for:
 
 ---
 
-## 🦿 10. ROS 2 in Humanoid Robotics
+## 10. ROS 2 in Humanoid Robotics
 
 ROS 2 is widely used in humanoid robots for:
 
@@ -178,7 +189,7 @@ ROS 2 is widely used in humanoid robots for:
 - 👁️ Vision and perception
 - 🦾 Arm manipulation
 - 🧠 AI decision-making
-- 📡 Sensor integration
+- Sensor integration
 - ⚖️ Balance and posture control
 
 Popular humanoid robots using ROS 2:
@@ -188,7 +199,7 @@ Popular humanoid robots using ROS 2:
 
 ---
 
-## 🛠️ 11. Programming Languages in ROS 2
+## 11. Programming Languages in ROS 2
 
 ROS 2 supports multiple programming languages:
 
@@ -200,16 +211,16 @@ ROS 2 supports multiple programming languages:
 
 ## 🧪 12. Practical Applications of ROS 2
 
-- ✅ Humanoid robots  
-- ✅ Autonomous vehicles  
-- ✅ Drones  
-- ✅ Smart factories  
-- ✅ Medical robotics  
-- ✅ AI research  
+- Humanoid robots  
+- Autonomous vehicles  
+- Drones  
+- Smart factories  
+- Medical robotics  
+- AI research  
 
 ---
 
-## 🧠 13. Tools Used with ROS 2
+## 13. Tools Used with ROS 2
 
 - ROS 2 CLI
 - Gazebo Simulator
@@ -230,7 +241,7 @@ ROS 2 supports multiple programming languages:
 
 ---
 
-## 📝 Knowledge Check Quiz (Coming Soon)
+## Knowledge Check Quiz (Coming Soon)
 
 - MCQs on nodes, topics, DDS
 - Short conceptual questions
@@ -238,7 +249,7 @@ ROS 2 supports multiple programming languages:
 
 ---
 
-## 📚 Glossary (Preview)
+## Glossary (Preview)
 
 - **Node:** A single running ROS program  
 - **Topic:** Real-time message stream  
@@ -249,7 +260,7 @@ ROS 2 supports multiple programming languages:
 
 ---
 
-## 📖 Further Reading (Coming Soon)
+## Further Reading (Coming Soon)
 
 - ROS 2 Official Documentation
 - DDS Architecture Whitepapers
@@ -258,7 +269,7 @@ ROS 2 supports multiple programming languages:
 
 ---
 
-## ✅ Lesson Summary
+## Lesson Summary
 
 This lesson explained the **complete ROS 2 architecture**, including nodes, topics, services, actions, and DDS. Students learned how ROS 2 enables **real-time, secure, and scalable communication** between robot components. This foundation is extremely important for building **humanoid robots, AI-driven robotic systems, and autonomous machines**.
 

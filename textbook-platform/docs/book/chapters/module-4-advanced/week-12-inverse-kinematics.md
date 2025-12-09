@@ -5,7 +5,7 @@ sidebar_label: ' Inverse Kinematics'
 ---
 
 
-# 🤖 Inverse Kinematics (IK)
+# Inverse Kinematics (IK)
 
 Inverse Kinematics (IK) is a fundamental concept in robotics that allows a robot to **compute the required joint angles** to achieve a desired **end-effector position and orientation**. It is widely used in **humanoid robots, manipulators, and autonomous robotic arms** for precise motion control.
 
@@ -13,21 +13,33 @@ This lesson introduces **IK principles, mathematical formulations, ROS 2 integra
 
 ---
 
-## 🎯 Learning Objectives
+## Learning Objectives
 
 By the end of this lesson, students will be able to:
 
-- ✅ Understand what **Inverse Kinematics** is  
-- ✅ Differentiate between **Forward Kinematics and Inverse Kinematics**  
-- ✅ Solve IK for simple manipulators  
-- ✅ Apply IK in **humanoid robot limbs**  
-- ✅ Integrate IK with **ROS 2 Humble** for motion planning  
-- ✅ Use simulation environments like **Gazebo, Unity, or Isaac Sim** to test IK  
-- ✅ Understand challenges like **singularities and redundancy**  
+- Understand what **Inverse Kinematics** is  
+- Differentiate between **Forward Kinematics and Inverse Kinematics**  
+- Solve IK for simple manipulators  
+- Apply IK in **humanoid robot limbs**  
+- Integrate IK with **ROS 2 Humble** for motion planning  
+- Use simulation environments like **Gazebo, Unity, or Isaac Sim** to test IK  
+- Understand challenges like **singularities and redundancy**  
 
 ---
 
-## 🧠 1. What is Inverse Kinematics?
+## Prerequisites
+
+- Completed Week 1-8: ROS 2, simulation, and sensor integration
+- Completed Week 11: Humanoid Locomotion (understanding kinematics)
+- Strong foundation in linear algebra and trigonometry
+- Familiarity with coordinate transformations and matrices
+- ROS 2 Humble with MoveIt motion planning framework
+- Python 3.8+ with NumPy and SciPy for mathematical computations
+- Access to simulation platform (Gazebo, Unity, or Isaac Sim)
+
+---
+
+## 1. What is Inverse Kinematics?
 
 Inverse Kinematics is the process of:
 
@@ -54,7 +66,7 @@ Inverse Kinematics is the process of:
 
 ---
 
-## 🏗️ 3. IK Mathematical Formulation
+## 3. IK Mathematical Formulation
 
 For a robot arm with `n` joints:
 
@@ -80,23 +92,23 @@ Where:
 
 ## 👣 4. IK Solution Methods
 
-### 🔹 1. Analytical Solutions
+### 1. Analytical Solutions
 - Closed-form equations  
 - Accurate and fast  
 - Limited to simple manipulators  
 
-### 🔹 2. Numerical Solutions
+### 2. Numerical Solutions
 - Iterative methods like **Jacobian Inverse** or **Gradient Descent**  
 - Works for complex robots  
 - Handles redundancy and constraints  
 
-### 🔹 3. Hybrid Approaches
+### 3. Hybrid Approaches
 - Combine analytical & numerical  
 - Improves speed and reliability  
 
 ---
 
-## 🔗 5. ROS 2 Integration
+## 5. ROS 2 Integration
 
 IK can be implemented in ROS 2 using:
 
@@ -109,7 +121,7 @@ IK can be implemented in ROS 2 using:
 
 ---
 
-## 🤖 6. Practical Examples
+## 6. Practical Examples
 
 ### Example 1: 2-DOF Arm
 - Desired end-effector position: `(x, y)`  
@@ -127,7 +139,7 @@ IK can be implemented in ROS 2 using:
 
 ---
 
-## 🛠️ 7. Tools & Technologies Used
+## 7. Tools & Technologies Used
 
 - ROS 2 Humble  
 - MoveIt 2  
@@ -149,7 +161,7 @@ IK can be implemented in ROS 2 using:
 
 ---
 
-## 📝 9. Knowledge Check Quiz (Coming Soon)
+## 9. Knowledge Check Quiz (Coming Soon)
 
 - What is the difference between FK and IK?  
 - Name two numerical IK methods  
@@ -158,7 +170,7 @@ IK can be implemented in ROS 2 using:
 
 ---
 
-## 📚 10. Glossary
+## 10. Glossary
 
 - **IK (Inverse Kinematics):** Compute joint angles for desired end-effector pose  
 - **FK (Forward Kinematics):** Compute end-effector pose from joint angles  
@@ -169,7 +181,7 @@ IK can be implemented in ROS 2 using:
 
 ---
 
-## 📖 11. Further Reading (Coming Soon)
+## 11. Further Reading (Coming Soon)
 
 - ROS 2 MoveIt 2 IK tutorials  
 - Analytical & numerical IK methods  
@@ -178,7 +190,7 @@ IK can be implemented in ROS 2 using:
 
 ---
 
-## ✅ Lesson Summary
+## Lesson Summary
 
 This lesson introduced **Inverse Kinematics**, covering its definition, mathematical formulation, solution methods, ROS 2 integration, and applications in **humanoid robots and manipulators**. Students learned how **IK allows robots to reach desired positions accurately** and how it is essential for **task-oriented robotic motion**.
 

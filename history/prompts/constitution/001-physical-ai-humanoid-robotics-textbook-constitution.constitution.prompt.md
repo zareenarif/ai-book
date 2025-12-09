@@ -1,3 +1,4 @@
+
 ---
 id: 001
 title: Physical AI Humanoid Robotics Textbook Constitution

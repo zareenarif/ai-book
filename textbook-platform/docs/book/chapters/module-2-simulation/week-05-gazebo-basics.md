@@ -4,7 +4,7 @@ title: ' Gazebo Basics'
 sidebar_label: ' Gazebo Basics'
 ---
 
-# 🧪 Gazebo Basics
+# Gazebo Basics
 
 Gazebo is a powerful **3D robot simulation environment** used with ROS 2 to design, test, and validate robotic systems in a virtual world before applying them on real hardware. It allows developers to simulate **robots, sensors, physics, and environments** with high accuracy.
 
@@ -12,22 +12,34 @@ This lesson introduces the **fundamentals of Gazebo**, its integration with ROS 
 
 ---
 
-## 🎯 Learning Objectives
+## Learning Objectives
 
 By the end of this lesson, students will be able to:
 
-- ✅ Understand what **Gazebo Simulator** is  
-- ✅ Explain why simulation is important in robotics  
-- ✅ Identify the **main components of Gazebo**  
-- ✅ Understand **worlds, models, and physics engines**  
-- ✅ Launch Gazebo with **ROS 2 integration**  
-- ✅ Spawn robots into the simulation  
-- ✅ Control robot movement using ROS 2 topics  
-- ✅ Apply Gazebo in **humanoid robotics & AI systems**
+- Understand what **Gazebo Simulator** is  
+- Explain why simulation is important in robotics  
+- Identify the **main components of Gazebo**  
+- Understand **worlds, models, and physics engines**  
+- Launch Gazebo with **ROS 2 integration**  
+- Spawn robots into the simulation  
+- Control robot movement using ROS 2 topics  
+- Apply Gazebo in **humanoid robotics & AI systems**
 
 ---
 
-## 🧠 1. What is Gazebo?
+## Prerequisites
+
+- Completed Week 1-3: ROS 2 fundamentals and architecture
+- Completed Week 4: ROS 2 Nodes & Topics
+- ROS 2 Humble installed and configured
+- Basic understanding of 3D coordinate systems and physics
+- Linux or Windows with WSL2 for Gazebo installation
+- Python 3.8+ and C++ compiler
+- Familiarity with terminal/command line operations
+
+---
+
+## 1. What is Gazebo?
 
 Gazebo is an **open-source robotics simulator** that provides:
 
@@ -51,7 +63,7 @@ It allows you to:
 
 ---
 
-## ❗ 2. Why Simulation is Important in Robotics?
+## 2. Why Simulation is Important in Robotics?
 
 Simulation is used because:
 
@@ -65,9 +77,9 @@ Simulation is used because:
 
 ---
 
-## 🏗️ 3. Main Components of Gazebo
+## 3. Main Components of Gazebo
 
-### 🔹 1. World
+### 1. World
 A **world** is the environment where the robot exists.
 
 It contains:
@@ -84,7 +96,7 @@ Example:
 
 ---
 
-### 🔹 2. Models
+### 2. Models
 A **model** is any object in Gazebo:
 
 - Robot
@@ -99,7 +111,7 @@ Each model is built using:
 
 ---
 
-### 🔹 3. Physics Engine
+### 3. Physics Engine
 Gazebo supports different physics engines:
 
 - ODE (default)
@@ -115,20 +127,20 @@ These engines handle:
 
 ---
 
-### 🔹 4. Sensors in Gazebo
+### 4. Sensors in Gazebo
 Gazebo can simulate:
 
-- 📷 Camera  
-- 🧭 IMU  
-- 🌊 Lidar  
-- 👣 Force sensors  
+- Camera  
+- IMU  
+- Lidar  
+- Force sensors  
 - 🔊 Microphones  
 
 These sensors publish data as **ROS 2 topics**.
 
 ---
 
-### 🔹 5. Plugins
+### 5. Plugins
 Plugins allow Gazebo to:
 
 - Control robot movement  
@@ -138,7 +150,7 @@ Plugins allow Gazebo to:
 
 ---
 
-## 🔗 4. Gazebo + ROS 2 Integration
+## 4. Gazebo + ROS 2 Integration
 
 Gazebo integrates with ROS 2 using **ROS-Gazebo bridge packages**.
 
@@ -152,7 +164,7 @@ This allows:
 
 ---
 
-## 🚀 5. Launching Gazebo with ROS 2
+## 5. Launching Gazebo with ROS 2
 
 ```bash
 gazebo

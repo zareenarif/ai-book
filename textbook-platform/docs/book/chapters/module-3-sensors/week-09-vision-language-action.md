@@ -4,16 +4,50 @@ title: ' Vision-Language-Action Models'
 sidebar_label: ' Vision-Language-Action Models'
 ---
 
+# Vision-Language-Action Models
 
-### 🔹 1. Perception Module
+Vision-Language-Action (VLA) models are **AI systems that integrate computer vision, natural language processing, and robotic action** to enable robots to understand visual input, interpret human commands, and execute appropriate physical actions. This integration is crucial for building **intelligent, autonomous humanoid robots** capable of complex real-world interactions.
+
+This lesson introduces **VLA model architecture, ROS 2 integration, and practical applications** in humanoid robotics.
+
+---
+
+## Learning Objectives
+
+By the end of this lesson, students will be able to:
+
+- Understand what **Vision-Language-Action (VLA) models** are
+- Explain how **perception, language, and action modules** work together
+- Integrate VLA models with **ROS 2 Humble**
+- Apply VLA for **autonomous task execution** in humanoid robots
+- Implement vision processing, command parsing, and action planning
+- Use VLA models in simulation environments (Gazebo, Unity, Isaac Sim)
+
+---
+
+## Prerequisites
+
+- Completed Week 1-7: ROS 2 and simulation fundamentals
+- Completed Week 8: Sensor Integration
+- Python 3.8+ with PyTorch or TensorFlow installed
+- OpenCV for computer vision tasks
+- Basic understanding of machine learning and neural networks
+- Familiarity with NLP concepts (tokenization, embeddings)
+- ROS 2 Humble workspace configured
+
+---
+
+## 1. VLA Model Architecture
+
+### 1. Perception Module
 - CNNs, Vision Transformers, or Depth sensors  
 - Detects objects, humans, and environment features  
 
-### 🔹 2. Language Module
+### 2. Language Module
 - NLP models (BERT, GPT, LLaMA, etc.)  
 - Converts natural language into actionable commands  
 
-### 🔹 3. Action Module
+### 3. Action Module
 - Motion planning  
 - Control commands  
 - Robotics kinematics  
@@ -22,7 +56,7 @@ sidebar_label: ' Vision-Language-Action Models'
 
 ---
 
-## 🔗 4. Integration with ROS 2
+## 2. Integration with ROS 2
 
 VLA Models interact with ROS 2 as follows:
 
@@ -34,7 +68,7 @@ VLA Models interact with ROS 2 as follows:
 
 ---
 
-## 🤖 5. Practical Examples
+## 3. Practical Examples
 
 ### Example 1: Pick-and-Place
 - Robot receives: `"Move the green object to the red zone"`  
@@ -56,7 +90,7 @@ VLA Models interact with ROS 2 as follows:
 
 ---
 
-## 🛠️ 6. Tools & Technologies Used
+## 4. Tools & Technologies Used
 
 - ROS 2 Humble  
 - Python / C++  
@@ -68,7 +102,7 @@ VLA Models interact with ROS 2 as follows:
 
 ---
 
-## 🧪 7. Hands-On Exercises (Coming Soon)
+## Hands-On Exercises (Coming Soon)
 
 ✅ Implement a camera node in ROS 2  
 ✅ Process images for object detection  
@@ -79,7 +113,7 @@ VLA Models interact with ROS 2 as follows:
 
 ---
 
-## 📝 8. Knowledge Check Quiz (Coming Soon)
+## Knowledge Check Quiz (Coming Soon)
 
 - What are VLA models?  
 - How does perception feed into action?  
@@ -88,7 +122,7 @@ VLA Models interact with ROS 2 as follows:
 
 ---
 
-## 📚 9. Glossary
+## Glossary
 
 - **VLA Models:** AI models integrating vision, language, and action  
 - **Perception Module:** Vision processing component  
@@ -99,7 +133,7 @@ VLA Models interact with ROS 2 as follows:
 
 ---
 
-## 📖 10. Further Reading (Coming Soon)
+## Further Reading (Coming Soon)
 
 - Research papers on Vision-Language-Action robotics  
 - ROS 2 integration tutorials for AI robots  
@@ -109,7 +143,7 @@ VLA Models interact with ROS 2 as follows:
 
 ---
 
-## ✅ Lesson Summary
+## Lesson Summary
 
 This lesson introduced **Vision-Language-Action (VLA) models**, their architecture, ROS 2 integration, and application in humanoid and autonomous robotics. Students learned how **vision, natural language, and action modules work together** to enable robots to understand instructions, perceive environments, and perform complex tasks intelligently.
 

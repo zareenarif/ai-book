@@ -4,26 +4,35 @@ title: 'Week 2: Fundamentals of Humanoid Robotics'
 sidebar_label: 'Week 2: Humanoid Fundamentals'
 ---
 
-# 🤖 Week 2: Fundamentals of Humanoid Robotics
+# Week 2: Fundamentals of Humanoid Robotics
 
 This week focuses on building a **strong foundational understanding of humanoid robotics**. Students will learn how humanoid robots are mechanically structured, how they move using actuators, how they sense the environment using sensors, and how different control layers work together to perform intelligent tasks. This week also covers important **design trade-offs** that engineers face while building humanoid robots.
 
 ---
 
-## 🎯 Learning Objectives
+## Learning Objectives
 
-By the end of this week, students will be able to:
+By the end of this lesson, you will be able to:
 
-- ✅ Understand the **mechanical structure** of humanoid robots  
-- ✅ Explain **Degrees of Freedom (DOF)** in humanoid joints  
-- ✅ Identify and compare **actuator types** such as servo motors and linear actuators  
-- ✅ Understand different **sensor arrays** used in humanoid robots  
-- ✅ Describe **control hierarchies** (low-level, mid-level, high-level)  
-- ✅ Analyze **design trade-offs** in humanoid robot development  
+1. **Understand** the mechanical structure of humanoid robots and their key components
+2. **Explain** Degrees of Freedom (DOF) in humanoid joints and their importance
+3. **Identify** and compare actuator types (servo motors, linear actuators, hydraulics)
+4. **Describe** sensor arrays used in humanoid perception and control
+5. **Analyze** control hierarchies from low-level motor control to high-level AI
+6. **Evaluate** design trade-offs in humanoid robot development
 
 ---
 
-## 🦿 1. Mechanical Structure of Humanoid Robots
+## Prerequisites
+
+- Completed Week 1: Introduction to Physical AI
+- Basic understanding of mechanics and physics
+- Familiarity with robotics terminology (sensors, actuators, controllers)
+- Python 3.8+ for code examples (optional)
+
+---
+
+## 1. Mechanical Structure of Humanoid Robots
 
 Humanoid robots are designed to resemble the **human body structure**. Their mechanical structure is divided into the following main parts:
 
@@ -37,7 +46,7 @@ Each body part is connected using **joints**, allowing movement similar to human
 
 ---
 
-## 🔢 2. Degrees of Freedom (DOF)
+## 2. Degrees of Freedom (DOF)
 
 **Degrees of Freedom (DOF)** define how many independent movements a robot joint or body part can perform.
 
@@ -56,11 +65,11 @@ High-end humanoid robots typically have **20–40 DOF**.
 
 ---
 
-## ⚙️ 3. Actuator Types in Humanoid Robots
+## 3. Actuator Types in Humanoid Robots
 
 Actuators are the **muscles of robots**. They convert electrical energy into physical movement.
 
-### 🔹 1. Servo Motors
+### 1. Servo Motors
 - Most commonly used in humanoid robots
 - Provide **precise angle control**
 - Used in arms, knees, neck, and fingers
@@ -77,7 +86,7 @@ Actuators are the **muscles of robots**. They convert electrical energy into phy
 
 ---
 
-### 🔹 2. Linear Actuators
+### 2. Linear Actuators
 - Move in a **straight line (push & pull)**
 - Used for lifting, pushing, and sliding motion
 
@@ -91,24 +100,24 @@ Actuators are the **muscles of robots**. They convert electrical energy into phy
 
 ---
 
-## 👁️ 4. Sensor Arrays in Humanoid Platforms
+## 4. Sensor Arrays in Humanoid Platforms
 
 Sensors allow robots to **“feel”, “see”, and “hear”** their environment.
 
 ### Common Sensors Used:
 
 - 🎥 **Camera Sensors:** Vision and object recognition  
-- 🧭 **IMU (Gyroscope + Accelerometer):** Balance & orientation  
+- **IMU (Gyroscope + Accelerometer):** Balance & orientation  
 - 🔊 **Microphones:** Voice input  
-- 👣 **Force Sensors:** Foot pressure sensing  
-- 🌡️ **Temperature Sensors:** Heat monitoring  
+- **Force Sensors:** Foot pressure sensing  
+- **Temperature Sensors:** Heat monitoring  
 - 🚧 **Ultrasonic / LiDAR:** Obstacle detection  
 
 These sensors work together as a **sensor array** to provide real-time environmental awareness.
 
 ---
 
-## 🧠 5. Control Hierarchies in Humanoid Robots
+## 5. Control Hierarchies in Humanoid Robots
 
 Humanoid robots use **layered control systems** for smooth operation.
 
@@ -164,15 +173,15 @@ Choosing the right balance depends on the **robot’s purpose** (education, heal
 
 ## 🧪 Practical Applications
 
-- ✅ Educational humanoid robots  
-- ✅ Healthcare & rehabilitation robots  
-- ✅ Industrial assistance robots  
-- ✅ AI research platforms  
-- ✅ Human-robot interaction studies  
+- Educational humanoid robots  
+- Healthcare & rehabilitation robots  
+- Industrial assistance robots  
+- AI research platforms  
+- Human-robot interaction studies  
 
 ---
 
-## 🛠️ Tools & Technologies (Preview)
+## Tools & Technologies (Preview)
 
 - Arduino / Raspberry Pi
 - ROS (Robot Operating System)
@@ -192,7 +201,7 @@ Choosing the right balance depends on the **robot’s purpose** (education, heal
 
 ---
 
-## ✅ Week 2 Summary
+## Week 2 Summary
 
 Week 2 builds the **core mechanical and control foundation of humanoid robotics**. Students learn how humanoid robots are structured, how they move using actuators, how they sense the environment using sensors, and how different control layers work together to perform intelligent behavior. The week also introduces essential **design trade-offs** that engineers must carefully manage.
 

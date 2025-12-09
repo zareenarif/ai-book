@@ -4,7 +4,7 @@ title: ' Capstone Project'
 sidebar_label: ' Capstone Project'
 ---
 
-# 🏆 Capstone Project: Advanced Humanoid Robotics with ROS 2
+# Capstone Project: Advanced Humanoid Robotics with ROS 2
 
 The Capstone Project integrates all the concepts learned in the course, including **humanoid locomotion, sensor integration, inverse kinematics, vision-language-action models, and conversational AI**. Students will design, simulate, and implement a **complex autonomous humanoid robotics project** using **ROS 2 Humble** and simulation platforms like **Gazebo, Unity, or NVIDIA Isaac Sim**.
 
@@ -12,22 +12,35 @@ This project is the **culmination of theoretical knowledge and hands-on skills**
 
 ---
 
-## 🎯 Learning Objectives
+## Learning Objectives
 
 By the end of this project, students will be able to:
 
-- ✅ Apply all course concepts in a **realistic humanoid robotics project**  
-- ✅ Design a humanoid robot with **locomotion, manipulation, and perception**  
-- ✅ Integrate multiple sensors for **real-time decision making**  
-- ✅ Implement **Inverse Kinematics** for task-oriented actions  
-- ✅ Apply **Vision-Language-Action models** for autonomous task execution  
-- ✅ Enable **Conversational AI** for human-robot interaction  
-- ✅ Use ROS 2 Humble for **control, simulation, and automation**  
-- ✅ Analyze and optimize robot performance in simulation environments  
+- Apply all course concepts in a **realistic humanoid robotics project**  
+- Design a humanoid robot with **locomotion, manipulation, and perception**  
+- Integrate multiple sensors for **real-time decision making**  
+- Implement **Inverse Kinematics** for task-oriented actions  
+- Apply **Vision-Language-Action models** for autonomous task execution  
+- Enable **Conversational AI** for human-robot interaction  
+- Use ROS 2 Humble for **control, simulation, and automation**  
+- Analyze and optimize robot performance in simulation environments  
 
 ---
 
-## 🧠 1. Project Overview
+## Prerequisites
+
+- **Completed ALL previous weeks (1-12)**: Full course completion required
+- ROS 2 Humble fully configured with all dependencies
+- At least one simulation platform (Gazebo, Unity, or Isaac Sim) installed
+- Python 3.8+ with all robotics libraries (NumPy, OpenCV, PyTorch/TensorFlow)
+- Strong understanding of humanoid robotics concepts
+- Proficiency in sensor integration, locomotion, IK, VLA models, and Conversational AI
+- Git for version control and project management
+- 20-40 hours available for project development and testing
+
+---
+
+## 1. Project Overview
 
 The Capstone Project involves building a **fully simulated humanoid robot** capable of:
 
@@ -71,7 +84,7 @@ The Capstone Project involves building a **fully simulated humanoid robot** capa
 
 ---
 
-## 🔗 3. ROS 2 Integration
+## 3. ROS 2 Integration
 
 The project leverages ROS 2 Humble to:
 
@@ -85,7 +98,7 @@ The project leverages ROS 2 Humble to:
 
 ---
 
-## 🛠️ 4. Simulation Environments
+## 4. Simulation Environments
 
 Simulation platforms used:
 
@@ -97,7 +110,7 @@ Simulation platforms used:
 
 ---
 
-## 🤖 5. Project Workflow
+## 5. Project Workflow
 
 1. Design humanoid robot model (URDF/Xacro)  
 2. Integrate sensors & publish ROS 2 topics  
@@ -121,7 +134,7 @@ Simulation platforms used:
 
 ---
 
-## 📝 7. Knowledge Check Quiz (Coming Soon)
+## 7. Knowledge Check Quiz (Coming Soon)
 
 - How do IK and locomotion modules interact?  
 - How is sensor fusion implemented in ROS 2?  
@@ -130,7 +143,7 @@ Simulation platforms used:
 
 ---
 
-## 📚 8. Glossary
+## 8. Glossary
 
 - **Capstone Project:** Final integrative robotics project  
 - **IK:** Inverse Kinematics  
@@ -143,7 +156,7 @@ Simulation platforms used:
 
 ---
 
-## 📖 9. Further Reading (Coming Soon)
+## 9. Further Reading (Coming Soon)
 
 - Advanced humanoid robotics case studies  
 - ROS 2 node architecture examples  
@@ -153,7 +166,7 @@ Simulation platforms used:
 
 ---
 
-## ✅ Project Summary
+## Project Summary
 
 The Capstone Project integrates **all learned concepts** into a **complete humanoid robotics system** using ROS 2 Humble. Students gain experience in **locomotion, sensor integration, IK, AI models, and conversational robotics** in simulation, preparing them for **real-world AI-driven humanoid and autonomous robotics challenges**.
 
